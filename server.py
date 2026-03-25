@@ -100,7 +100,7 @@ def sanitize_command(command: str) -> str:
 
 mcp = FastMCP(
     "Windows Debugger",
-    description=(
+    instructions=(
         "Interactive Windows debugging via CDB/KD. "
         "Supports user-mode and kernel debugging for RE and vuln research."
     ),
